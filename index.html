@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <script src='https://d3js.org/d3.v7.min.js'></script>
+    <!-- <script src="https://unpkg.com/topojson-client@3"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <title>viz</title>
+</head>
+<body>
+    <h1 class="title">The Growth of Electric Vehicles</h1>
+    <div id="container">
+        <div id="slide1" class="slide active">
+        <h2>Slide 1: Change in EV Population Over Time</h2>
+        <div id="chart1"></div>
+        <div class="annotation" id="annotation1"></div>
+        </div>
+
+        <div id="slide2" class="slide">
+        <h2 id="header2">Slide 2: Sales of EVs by Region</h2>
+        <div id="anno2"></div>
+        <div id="chart2"></div>
+        <div class="annotation" id="annotation2"></div>
+        </div>
+
+        <div id="slide3" class="slide">
+        <h2>Slide 3: Automaker Trends and Improvements</h2>
+        <div class="annotation" id="instructions"></div>
+        <div id="chart3"></div>
+        <div class="annotation" id="annotation3"></div>
+        </div>
+
+        <div id="nav-buttons">
+        <button id="prev">Previous Slide</button>
+        <button id="next">Next Slide</button>
+        </div>
+  </div>
+  <div class="tooltip" id="tooltip"></div>
+    <script src="script.js"></script>
+</body>
+
+</html>
