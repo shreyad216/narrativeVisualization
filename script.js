@@ -130,7 +130,7 @@ function drawSlide1(data) {
 
   annotation1.text("The plot shows the number of electric vehicles manufactured per year. Hover over a year to see model manufacture counts by brand.");
 
-  const annotationText = `The largest surge in EV population occurred between 2014 and 2018,\nwith ${surgeCount} total cars made in 2018.`;
+  const annotationText = `The largest surge in EV population occurred between 2014 and 2018,\nwith ${surgeCount} total EVs made in 2018.`;
 
   const annotationX = x(surgeYear) + 10;
   const annotationY = y(surgeCount) - 60;
